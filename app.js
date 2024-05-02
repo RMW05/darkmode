@@ -1,0 +1,10 @@
+let navItems = $('.navItem');
+navItems.css('color', 'white');
+let navElement = $('#nav');
+navElement.css('background-color', '#145');
+let evenListItems = $('li:even');
+evenListItems.css('background-color', '#ccc');
+let oddListItems = $('li:odd');
+oddListItems.css('background-color', '#aaa');
+let inputTag = $('input');
+inputTag.val('Roman');
